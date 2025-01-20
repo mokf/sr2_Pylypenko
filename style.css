@@ -1,0 +1,242 @@
+h3{
+    color: red;
+    font-size: 20px;
+}
+.synt{
+    color:blue;
+    text-align: center;
+}
+#para1{
+    color: green;
+    text-align: left;
+}
+
+.backgr{
+    background-color: burlywood;
+    opacity: 0.5;
+}
+
+.mezh{
+    border-style: dotted;
+}
+
+.marg{
+    margin: 25px;
+}
+
+.pad{
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.heig{
+    height: 100px;
+    width: 50%;
+    background-color: powderblue;
+}
+
+.bloc{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+a.one:link {
+    color: #ff0000;
+}
+a.one:visited {
+    color: #0000ff;
+}
+a.one:hover {
+    color: #ffcc00;
+}
+a.two:link, a.two:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor:wait;
+}
+
+ol {
+    background: #ff9999;
+    padding: 20px;
+}
+ol li {
+    background: #ffe5e5;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+table, th{
+    border: 1px solid black;
+    vertical-align: bottom;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    height: 100px;
+}
+tr:hover {
+    background-color: rgb(252, 215, 202);
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+#rcorners2 {
+    border-radius: 15px 50px 30px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+.anim{
+    width: 50px;
+    height: 50px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block; 
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.button1{
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+}
+.button1:hover{
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.pagination {
+    display: inline-block;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    transition: background-color .3s;
+    border-radius: 5px;
+    margin: 0 4px;
+}
+.pagination a.active {
+    color: rgb(246, 246, 246);
+    background-color: #54a79d;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.column{
+    column-count: 3
+}
+
+.dropbtn {
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+} 
+
+.cur_col{
+    color:mediumturquoise;
+    border: 10px solid currentcolor;
+}
+
+.shadow{
+    text-shadow: 2px 2px 5px blue;
+}
+
+.shadow1{
+    background-color: #c78282;
+    height: 100px;
+    width: 250px;
+    box-shadow: 10px 10px lightblue;
+}
+
+.trans{
+    background-color: lightblue;
+    width: 200px;
+    height: 100px;
+    transition: width 2s;
+}
+.trans:hover{
+    width: 300px;
+}
+
+.ex1{
+    border: 1px solid black;
+    width: 200px;
+    word-break: break-all;
+}
